@@ -1,0 +1,20 @@
+<suite name="RestAssured_Employee_Suite">
+
+<test name = "RestAssured_Employee_Tests">
+<listeners>
+	<listener class-name="com.employeeAPI.utils.ExtentReport_Listeners"></listener>
+</listeners>
+
+<classes>
+
+<class name="com.employeeAPI.tests.TC001_GET_All_Employees"></class>
+<class name="com.employeeAPI.tests.Tc002_GET_Single_Employee_Record"></class>
+<class name="com.employeeAPI.tests.TC003_POST_Employee_Record"></class>
+<class name="com.employeeAPI.tests.TC004_PUT_Employee_Record"></class>
+<class name="com.employeeAPI.tests.TC005_DELETE_Employee_Record"></class>
+
+</classes>
+
+</test>
+
+</suite>
