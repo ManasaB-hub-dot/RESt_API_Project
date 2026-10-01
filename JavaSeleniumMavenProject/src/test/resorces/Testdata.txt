@@ -1,0 +1,7 @@
+package - com.automation.Tests
+
+SimpleLoginProgram.java - https://www.saucedemo.com/
+DropDownSelectMethods.java - https://vinothqaacademy.com/drop-down/
+ActionsClass.java - https://testautomationpractice.blogspot.com/
+Alerts.java - https://testautomationpractice.blogspot.com/
+WindowsTable.java - https://testautomationpractice.blogspot.com/

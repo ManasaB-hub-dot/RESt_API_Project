@@ -1,0 +1,16 @@
+package com.javaPrograms;
+
+public class OccuranceOfCharWithoutUsingLoops {
+	
+	    public static void main(String[] args) {
+	        String inputStr = "Java Programming Language";
+	        char targetChar = 'a';
+	        
+	        String charStr = String.valueOf(targetChar);
+	        
+	        int numberOfOccurances = inputStr.length() - inputStr.replace(charStr, "").length();
+	        System.out.println("occurance of "+targetChar+":"+numberOfOccurances);
+
+	    }
+	}
+
